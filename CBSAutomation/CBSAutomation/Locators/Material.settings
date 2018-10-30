@@ -1,0 +1,54 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="CBSAutomation.Locators" GeneratedClassName="Material">
+  <Profiles />
+  <Settings>
+    <Setting Name="Setting" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="PruchasingMenu_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">menuLIPurchasing2</Value>
+    </Setting>
+    <Setting Name="MatrerialMenu_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">subMenuLiMaterials7</Value>
+    </Setting>
+    <Setting Name="CreateNewmaterial_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">createNew</Value>
+    </Setting>
+    <Setting Name="Materail_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">MaterialID</Value>
+    </Setting>
+    <Setting Name="MaterialDescription_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">MaterialDescription</Value>
+    </Setting>
+    <Setting Name="MaterialType_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ddlMaterialTypeLink</Value>
+    </Setting>
+    <Setting Name="CostCurrent_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">CostCurrent</Value>
+    </Setting>
+    <Setting Name="IsRealMaterial_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">IsRealMaterial</Value>
+    </Setting>
+    <Setting Name="FilterMateriall1_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">filterByMaterialID</Value>
+    </Setting>
+    <Setting Name="filter_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">search</Value>
+    </Setting>
+    <Setting Name="Save_CSS" Type="System.String" Scope="User">
+      <Value Profile="(Default)">.btn.btn-primary</Value>
+    </Setting>
+    <Setting Name="StockedItem_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ddlStockedItem</Value>
+    </Setting>
+    <Setting Name="Activestatus_XPATH" Type="System.String" Scope="User">
+      <Value Profile="(Default)">//*[@id="list"]/tbody/tr[2]/td[4]</Value>
+    </Setting>
+    <Setting Name="FilterMaterial_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">filterByMaterialID</Value>
+    </Setting>
+    <Setting Name="Material_table_XPATH" Type="System.String" Scope="User">
+      <Value Profile="(Default)">//div[@id="list"]/tbody/tr[2]/td[2]</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

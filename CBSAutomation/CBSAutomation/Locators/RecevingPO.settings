@@ -1,0 +1,45 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="CBSAutomation.Locators" GeneratedClassName="RecevingPO">
+  <Profiles />
+  <Settings>
+    <Setting Name="POReceving_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">subMenuLiPOReceiptEntry4</Value>
+    </Setting>
+    <Setting Name="receiveSpplier_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">supplier-id</Value>
+    </Setting>
+    <Setting Name="ReceiveBoard_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">receive-board</Value>
+    </Setting>
+    <Setting Name="Shipment_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">shippmentId</Value>
+    </Setting>
+    <Setting Name="AddRecepietLine_CSS" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#quick-receipt-entry-container &gt; div.control-group &gt; a:nth-child(1)</Value>
+    </Setting>
+    <Setting Name="POinputReceive_CSS" Type="System.String" Scope="User">
+      <Value Profile="(Default)">form#quick-receipt-entry-container &gt; table.ko-grid.styled-ko-grid &gt; tbody &gt; tr:nth-child(1) &gt; td:nth-child(1) &gt; div.custom-autocomplite-field &gt; input</Value>
+    </Setting>
+    <Setting Name="ReceiveUnit_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">form#quick-receipt-entry-container &gt; table.ko-grid.styled-ko-grid &gt; tbody &gt; tr:nth-child(1) &gt; td:nth-child(5) &gt; input</Value>
+    </Setting>
+    <Setting Name="UnitQty_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">form#quick-receipt-entry-container &gt; table.ko-grid.styled-ko-grid &gt; tbody &gt; tr:nth-child(1) &gt; td:nth-child(6) &gt; input</Value>
+    </Setting>
+    <Setting Name="LatUnitQty_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">form#quick-receipt-entry-container &gt; table.ko-grid.styled-ko-grid &gt; tbody &gt; tr:nth-child(1) &gt; td:nth-child(7) &gt; input</Value>
+    </Setting>
+    <Setting Name="VendorID_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">form#quick-receipt-entry-container &gt; table.ko-grid.styled-ko-grid &gt; tbody &gt; tr:nth-child(1) &gt; td:nth-child(10) &gt; input</Value>
+    </Setting>
+    <Setting Name="SaveReceivePO_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">save_btn</Value>
+    </Setting>
+    <Setting Name="ReceiveSupplierPO_XPATH" Type="System.String" Scope="User">
+      <Value Profile="(Default)">(//div[@class='ui-autocomplete-pagination-results'])[1]/ul/li[1]/a</Value>
+    </Setting>
+    <Setting Name="ReceivePOid_XPATH" Type="System.String" Scope="User">
+      <Value Profile="(Default)">(//div[@class='ui-autocomplete-pagination-results'])[3]/ul/li[1]/a</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

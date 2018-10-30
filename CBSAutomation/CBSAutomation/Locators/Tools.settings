@@ -1,0 +1,144 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="CBSAutomation.Locators" GeneratedClassName="Tools">
+  <Profiles />
+  <Settings>
+    <Setting Name="ToolMenu_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">subMenuLiTools2</Value>
+    </Setting>
+    <Setting Name="CreateTool_LINK" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Create New</Value>
+    </Setting>
+    <Setting Name="Tool_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ToolID</Value>
+    </Setting>
+    <Setting Name="Tool_Type" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ToolType</Value>
+    </Setting>
+    <Setting Name="ToolLicensePlate_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ToolLicensePlate</Value>
+    </Setting>
+    <Setting Name="HomeLocation_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">AutoHomeLocation</Value>
+    </Setting>
+    <Setting Name="CurrentLocation_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">AutoLocation</Value>
+    </Setting>
+    <Setting Name="ToolStatus_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ToolStatus</Value>
+    </Setting>
+    <Setting Name="ImpressionCount_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ImpressionCount</Value>
+    </Setting>
+    <Setting Name="ImpressionExpected_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ImpressionExpected</Value>
+    </Setting>
+    <Setting Name="ToolSupplier_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">AutoSupplier</Value>
+    </Setting>
+    <Setting Name="ToolPOnumber_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">PONumber</Value>
+    </Setting>
+    <Setting Name="POCreatedDate_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">POCreatedDate</Value>
+    </Setting>
+    <Setting Name="PODateDue_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">PODate</Value>
+    </Setting>
+    <Setting Name="ToolCost_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Cost</Value>
+    </Setting>
+    <Setting Name="ReceiptNumber_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ReceiptNumber</Value>
+    </Setting>
+    <Setting Name="ReceiptDate_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ReceiptDate</Value>
+    </Setting>
+    <Setting Name="ToolGLcode_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">tool-purchase-external-code</Value>
+    </Setting>
+    <Setting Name="SupplierPurchaseDescription_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">SupplierPurchaseDescription</Value>
+    </Setting>
+    <Setting Name="PricingType_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">AutoPricingType</Value>
+    </Setting>
+    <Setting Name="InvoiceCustomer_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">AutoInvoiceCustomer</Value>
+    </Setting>
+    <Setting Name="SalesPrice_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">SalesPrice</Value>
+    </Setting>
+    <Setting Name="SaleToolGLcode_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">tool-sale-external-code</Value>
+    </Setting>
+    <Setting Name="SalesRep_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">AutoSaleRep</Value>
+    </Setting>
+    <Setting Name="Invocicegeneration_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">invoiceGen</Value>
+    </Setting>
+    <Setting Name="customerPO_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">customerPO</Value>
+    </Setting>
+    <Setting Name="CustomerInvoiceDescription_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">CustomerInvoiceDescription</Value>
+    </Setting>
+    <Setting Name="Save_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">save</Value>
+    </Setting>
+    <Setting Name="Order_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">order</Value>
+    </Setting>
+    <Setting Name="SetExisting_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Set Existing</Value>
+    </Setting>
+    <Setting Name="Cancel_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Cancel</Value>
+    </Setting>
+    <Setting Name="HomeLocationDropdown_XPATH" Type="System.String" Scope="User">
+      <Value Profile="(Default)">(//div[@class='ui-autocomplete-pagination-results'])[1]/ul/li[1]/a</Value>
+    </Setting>
+    <Setting Name="CurrLocationDropdown_XPATH" Type="System.String" Scope="User">
+      <Value Profile="(Default)">(//div[@class='ui-autocomplete-pagination-results'])[2]/ul/li[1]/a</Value>
+    </Setting>
+    <Setting Name="SupplierDropdown_XPATH" Type="System.String" Scope="User">
+      <Value Profile="(Default)">(//div[@class='ui-autocomplete-pagination-results'])[3]/ul/li[1]/a</Value>
+    </Setting>
+    <Setting Name="AvailableDate_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">AvailableDate</Value>
+    </Setting>
+    <Setting Name="PurchasingGLCode_XPATH" Type="System.String" Scope="User">
+      <Value Profile="(Default)">(//div[@class='ui-autocomplete-pagination-results'])[4]/ul/li[1]/a</Value>
+    </Setting>
+    <Setting Name="PricingTypeDropdown_XPATH" Type="System.String" Scope="User">
+      <Value Profile="(Default)">(//div[@class='ui-autocomplete-pagination-results'])[5]/ul/li[1]/a</Value>
+    </Setting>
+    <Setting Name="CustomerDropdown_XPATH" Type="System.String" Scope="User">
+      <Value Profile="(Default)">(//div[@class='ui-autocomplete-pagination-results'])[6]/ul/li[1]/a</Value>
+    </Setting>
+    <Setting Name="SalesGLDropdown_XPATH" Type="System.String" Scope="User">
+      <Value Profile="(Default)">(//div[@class='ui-autocomplete-pagination-results'])[7]/ul/li[1]/a</Value>
+    </Setting>
+    <Setting Name="SalesRepDropdown_XPATH" Type="System.String" Scope="User">
+      <Value Profile="(Default)">(//div[@class='ui-autocomplete-pagination-results'])[8]/ul/li[1]/a</Value>
+    </Setting>
+    <Setting Name="ToolFilter_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">search</Value>
+    </Setting>
+    <Setting Name="tooltable_CSS" Type="System.String" Scope="User">
+      <Value Profile="(Default)">//*[@id="tools-grid"]/tbody/tr[2]/td[2]</Value>
+    </Setting>
+    <Setting Name="Receive_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">recive</Value>
+    </Setting>
+    <Setting Name="ToolStatusReceive_XPATH" Type="System.String" Scope="User">
+      <Value Profile="(Default)">//*[@id="tools-grid"]/tbody/tr[2]/td[8]</Value>
+    </Setting>
+    <Setting Name="FilterToolID_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">filterByToolName</Value>
+    </Setting>
+    <Setting Name="Filtertoolpage_CSS" Type="System.String" Scope="User">
+      <Value Profile="(Default)">div.enableControlForReadAccess &gt; div.custom-autocomplite-field &gt; input#filterByToolName</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

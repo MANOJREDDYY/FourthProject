@@ -1,0 +1,54 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="CBSAutomation.Locators" GeneratedClassName="PurchaseMaterial">
+  <Profiles />
+  <Settings>
+    <Setting Name="CreatePOMaterial_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">createNewPO</Value>
+    </Setting>
+    <Setting Name="Supplier_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">supplier-autocomplete</Value>
+    </Setting>
+    <Setting Name="Warehouse_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">warehouse-list</Value>
+    </Setting>
+    <Setting Name="TrasportMode_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">transportmode-list</Value>
+    </Setting>
+    <Setting Name="SelectMaterial_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">find-materials</Value>
+    </Setting>
+    <Setting Name="MaterialSupplierDropdown_XPATH" Type="System.String" Scope="User">
+      <Value Profile="(Default)">(//div[@class='ui-autocomplete-pagination-results'])[2]/ul/li[1]/a</Value>
+    </Setting>
+    <Setting Name="WarehousDropdown_XPATH" Type="System.String" Scope="User">
+      <Value Profile="(Default)">(//div[@class='ui-autocomplete-pagination-results'])[1]/ul/li[1]/a</Value>
+    </Setting>
+    <Setting Name="TrasportModeDropdown_XPATH" Type="System.String" Scope="User">
+      <Value Profile="(Default)">(//div[@class='ui-autocomplete-pagination-results'])[3]/ul/li[1]/a</Value>
+    </Setting>
+    <Setting Name="MaterialIDSearch_CSS" Type="System.String" Scope="User">
+      <Value Profile="(Default)">div#search-materials-dialog &gt; fieldset &gt; div &gt; div.enableControlForReadAccess &gt; div &gt; input#filter-by-material-ID</Value>
+    </Setting>
+    <Setting Name="MaterialFilter_CSS" Type="System.String" Scope="User">
+      <Value Profile="(Default)">div#search-materials-dialog &gt; fieldset &gt; div &gt; div.enableControlForReadAccess &gt; div.center &gt; a#search</Value>
+    </Setting>
+    <Setting Name="MaterialSelectCheckbox_CSS" Type="System.String" Scope="User">
+      <Value Profile="(Default)">div#search-materials-dialog &gt; div.modal-body &gt; div#gbox_material-search-grid &gt; div#gview_material-search-grid &gt; div.ui-jqgrid-bdiv &gt; div &gt; table#material-search-grid &gt; tbody &gt; tr:nth-child(2) &gt; td:nth-child(1) &gt; input</Value>
+    </Setting>
+    <Setting Name="AddMaterialPO_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">add-material-po-line</Value>
+    </Setting>
+    <Setting Name="SavePO_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">save-po-button</Value>
+    </Setting>
+    <Setting Name="PurcahsingMenu_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">menuLIPurchasing2</Value>
+    </Setting>
+    <Setting Name="PurchaseMaterial_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">subMenuLiPurchaseMaterials1</Value>
+    </Setting>
+    <Setting Name="MaterialMode_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">filter-by-viewmodes</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

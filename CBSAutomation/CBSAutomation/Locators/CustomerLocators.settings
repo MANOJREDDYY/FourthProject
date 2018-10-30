@@ -1,0 +1,160 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="CBSAutomation.Locators" GeneratedClassName="CustomerLocators">
+  <Profiles />
+  <Settings>
+    <Setting Name="CustomerMenu_ID" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">subMenuLiCustomers3</Value>
+    </Setting>
+    <Setting Name="CreateCustomer_LINK" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Create New</Value>
+    </Setting>
+    <Setting Name="CustomerID_ID" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">CustID</Value>
+    </Setting>
+    <Setting Name="CustomerName_ID" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Name</Value>
+    </Setting>
+    <Setting Name="CustomerType_ID" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">autocustomertype</Value>
+    </Setting>
+    <Setting Name="CustomerTypedropDown_CSS" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">(//div[@class='ui-autocomplete-pagination-results'])[1]/ul/li[1]/a</Value>
+    </Setting>
+    <Setting Name="CustId_Save_CSS" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">div.grid-form &gt; fieldset &gt; div &gt; div.center &gt; input.btn</Value>
+    </Setting>
+    <Setting Name="Customer_Status_ID" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">CustomerStatusName</Value>
+    </Setting>
+    <Setting Name="AddressBillTo_ID" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Address1_billto_0</Value>
+    </Setting>
+    <Setting Name="CityBillto_ID" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">City_billto_0</Value>
+    </Setting>
+    <Setting Name="BilltoState_ID" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">State_billto_0</Value>
+    </Setting>
+    <Setting Name="ZipBillto_ID" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Zip_billto_0</Value>
+    </Setting>
+    <Setting Name="CountryBillTo_ID" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Country_billto_0</Value>
+    </Setting>
+    <Setting Name="CustShortname_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">CustomerShortName</Value>
+    </Setting>
+    <Setting Name="Shipto_Add_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Address1_shipto_</Value>
+    </Setting>
+    <Setting Name="Shipto_City_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">City_shipto_</Value>
+    </Setting>
+    <Setting Name="Shipto_State_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">State_shipto_</Value>
+    </Setting>
+    <Setting Name="ShipTo_Zip_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Zip_shipto_</Value>
+    </Setting>
+    <Setting Name="Shippingmtd_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">AutoDefShippingMethod</Value>
+    </Setting>
+    <Setting Name="MaxShipOver_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">MaxShipOver</Value>
+    </Setting>
+    <Setting Name="MinShipOver_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ShipMinUnder</Value>
+    </Setting>
+    <Setting Name="SaveAndClose_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">btnSubmit</Value>
+    </Setting>
+    <Setting Name="CustSave_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">btnSave</Value>
+    </Setting>
+    <Setting Name="filetrName_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">filterByName</Value>
+    </Setting>
+    <Setting Name="table_XPATH" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="CustomerContact_LINK" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Contacts</Value>
+    </Setting>
+    <Setting Name="Contact_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Contact</Value>
+    </Setting>
+    <Setting Name="ContPh_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ContactPhone</Value>
+    </Setting>
+    <Setting Name="Cont_Email_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ContactEmail</Value>
+    </Setting>
+    <Setting Name="PrimaryRep_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">AutoPrimaryRep</Value>
+    </Setting>
+    <Setting Name="QouteRep_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">AutoOfficialQuoteRep</Value>
+    </Setting>
+    <Setting Name="PrimaryRepDropdown_CSS" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#tabCustomerContacts &gt; div:nth-child(1) &gt; div:nth-child(2) &gt; div:nth-child(1) &gt; div.ui-autocomplete-pagination-results &gt; ul.ui-autocomplete.ui-front.ui-menu.ui-widget.ui-widget-content.ui-corner-all &gt; li.ui-menu-item &gt; a.ui-corner-all</Value>
+    </Setting>
+    <Setting Name="QouteRepDropDown_CSS" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#tabCustomerContacts &gt; div:nth-child(1) &gt; div:nth-child(2) &gt; div:nth-child(4) &gt; div.ui-autocomplete-pagination-results &gt; ul.ui-autocomplete.ui-front.ui-menu.ui-widget.ui-widget-content.ui-corner-all &gt; li.ui-menu-item &gt; a.ui-corner-all</Value>
+    </Setting>
+    <Setting Name="ShippingMtd_CSS" Type="System.String" Scope="User">
+      <Value Profile="(Default)">AutoDefShippingMethod</Value>
+    </Setting>
+    <Setting Name="CustUntizationPattern_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">AutoDefUnitizingType</Value>
+    </Setting>
+    <Setting Name="CustBillingTerm_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">AutoBillingTerms</Value>
+    </Setting>
+    <Setting Name="ShipCustShortName_CSS" Type="System.String" Scope="User">
+      <Value Profile="(Default)">div#custTabContent &gt; div.customer-ship-container &gt; div.left-column.grid-form &gt; div &gt; div &gt; div.controls &gt; input#CustomerShortName</Value>
+    </Setting>
+    <Setting Name="UnitizationType_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">AutoDefUnitizingType</Value>
+    </Setting>
+    <Setting Name="CountryShipto_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Country_shipto_</Value>
+    </Setting>
+    <Setting Name="ShippingMtddropdown_CSS" Type="System.String" Scope="User">
+      <Value Profile="(Default)">(//div[@class='ui-autocomplete-pagination-results'])[20]/ul/li/a
+</Value>
+    </Setting>
+    <Setting Name="Unittization_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">liTabUnitizing</Value>
+    </Setting>
+    <Setting Name="Commercial_LINK" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Commercial</Value>
+    </Setting>
+    <Setting Name="BillingTerms_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">AutoBillingTerms</Value>
+    </Setting>
+    <Setting Name="BillingTermsDropdown_CSS" Type="System.String" Scope="User">
+      <Value Profile="(Default)">div#tabCustomerCommercial &gt; div &gt; div &gt; div.custom-autocomplite-field &gt; div.ui-autocomplete-pagination-results &gt; ul.ui-autocomplete.ui-front.ui-menu.ui-widget.ui-widget-content.ui-corner-all &gt; li.ui-menu-item &gt; a.ui-corner-all</Value>
+    </Setting>
+    <Setting Name="Make_Active_LINK" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Make Active</Value>
+    </Setting>
+    <Setting Name="searchCustomer_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">search</Value>
+    </Setting>
+    <Setting Name="customerListtable_CSS" Type="System.String" Scope="User">
+      <Value Profile="(Default)">div#gview_list &gt; div.ui-jqgrid-bdiv &gt; div &gt; table#list &gt; tbody &gt; tr:nth-child(2) &gt; td:nth-child(2)</Value>
+    </Setting>
+    <Setting Name="CustomerDefShipto_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">//*[@id="list_ShiptoCustomers"]/tbody/tr[2]/td[1]</Value>
+    </Setting>
+    <Setting Name="filterByName_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">filterByName</Value>
+    </Setting>
+    <Setting Name="AutoBusinessDiscount_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">AutoBusinessDiscount</Value>
+    </Setting>
+    <Setting Name="Untitypedropdown_CSS" Type="System.String" Scope="User">
+      <Value Profile="(Default)">div#tabContentUnitizing &gt; div#tabUnitizing &gt; div &gt; div.custom-autocomplite-field &gt; div.controls &gt; div.ui-autocomplete-pagination-results &gt; ul.ui-autocomplete.ui-front.ui-menu.ui-widget.ui-widget-content.ui-corner-all &gt; li.ui-menu-item &gt; a.ui-corner-all</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

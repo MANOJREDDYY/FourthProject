@@ -1,0 +1,45 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="CBSAutomation.Locators" GeneratedClassName="POProcessing">
+  <Profiles />
+  <Settings>
+    <Setting Name="AccountingMenu_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">menuLIAccounting3</Value>
+    </Setting>
+    <Setting Name="POProcessing_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">subMenuLiPOProcessing2</Value>
+    </Setting>
+    <Setting Name="FilterTool_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">filter-by-processingPOviewmodes</Value>
+    </Setting>
+    <Setting Name="FilterPO_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">search</Value>
+    </Setting>
+    <Setting Name="Table_toolgrid_XPATH" Type="System.String" Scope="User">
+      <Value Profile="(Default)">//*[@id="tools-grid"]/tbody/tr[2]/td[1]/input</Value>
+    </Setting>
+    <Setting Name="ProcessPO_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">process-po</Value>
+    </Setting>
+    <Setting Name="POstatus_XPATH" Type="System.String" Scope="User">
+      <Value Profile="(Default)">//*[@id="tools-grid"]/tbody/tr[2]/td[9]</Value>
+    </Setting>
+    <Setting Name="FilterOrderid_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">filter-by-order-ID</Value>
+    </Setting>
+    <Setting Name="PrintOrderPOReport_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">print-po-report</Value>
+    </Setting>
+    <Setting Name="ProcessPOID_XPATH" Type="System.String" Scope="User">
+      <Value Profile="(Default)">//*[@id="tools-grid"]/tbody/tr[2]/td[5]</Value>
+    </Setting>
+    <Setting Name="FilterByMaterial_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">filter-by-material-ID</Value>
+    </Setting>
+    <Setting Name="Material_toolgrid_XPATH" Type="System.String" Scope="User">
+      <Value Profile="(Default)">//*[@id="po-grid"]/tbody/tr[2]/td[2]/input</Value>
+    </Setting>
+    <Setting Name="MaterialProcessPOID_XPATH" Type="System.String" Scope="User">
+      <Value Profile="(Default)">//*[@id="po-grid"]/tbody/tr[2]/td[6]</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

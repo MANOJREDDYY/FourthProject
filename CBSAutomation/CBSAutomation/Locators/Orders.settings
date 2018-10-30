@@ -1,0 +1,96 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="CBSAutomation.Locators" GeneratedClassName="Orders">
+  <Profiles />
+  <Settings>
+    <Setting Name="orderManag_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">menuLIOrderManagement1</Value>
+    </Setting>
+    <Setting Name="Orderentry_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">subMenuLiOrderentry1</Value>
+    </Setting>
+    <Setting Name="ordercustomer_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">bill-to-customer-id</Value>
+    </Setting>
+    <Setting Name="dropdown_XPATH" Type="System.String" Scope="User">
+      <Value Profile="(Default)">//*[@id="quick-order-entry-container"]/table/tbody/tr[1]/td/div[1]/div/div/ul/li/a</Value>
+    </Setting>
+    <Setting Name="ordertable_XPATH" Type="System.String" Scope="User">
+      <Value Profile="(Default)">//*[@id="quick-order-entry-container"]/table/tbody/tr[2]/td/table</Value>
+    </Setting>
+    <Setting Name="ordernetryPO_XPATH" Type="System.String" Scope="User">
+      <Value Profile="(Default)">//*[@id="quick-order-entry-container"]/table/tbody/tr[2]/td/table/tbody/tr/td[2]/input</Value>
+    </Setting>
+    <Setting Name="Shipto_XPATH" Type="System.String" Scope="User">
+      <Value Profile="(Default)">//*[@id="quick-order-entry-container"]/table/tbody/tr[2]/td/table/tbody/tr/td[4]/div/input</Value>
+    </Setting>
+    <Setting Name="ShipToDropDown_XPATH" Type="System.String" Scope="User">
+      <Value Profile="(Default)">(//div[@class='ui-autocomplete-pagination-results'])[2]/ul/li/a</Value>
+    </Setting>
+    <Setting Name="DileverySpec_XPATH" Type="System.String" Scope="User">
+      <Value Profile="(Default)">//*[@id="quick-order-entry-container"]/table/tbody/tr[2]/td/table/tbody/tr/td[7]/div/input</Value>
+    </Setting>
+    <Setting Name="DileverySpecdropdown_XPATH" Type="System.String" Scope="User">
+      <Value Profile="(Default)">(//div[@class='ui-autocomplete-pagination-results'])[3]/ul/li/a</Value>
+    </Setting>
+    <Setting Name="orderQty_XPATH" Type="System.String" Scope="User">
+      <Value Profile="(Default)">//*[@id="quick-order-entry-container"]/table/tbody/tr[2]/td/table/tbody/tr/td[8]/input</Value>
+    </Setting>
+    <Setting Name="OrderDueDate_XPATH" Type="System.String" Scope="User">
+      <Value Profile="(Default)">//*[@id="quick-order-entry-container"]/table/tbody/tr[2]/td/table/tbody/tr/td[10]/input</Value>
+    </Setting>
+    <Setting Name="OrderDueDatePrice_XPATH" Type="System.String" Scope="User">
+      <Value Profile="(Default)">//*[@id="quick-order-entry-container"]/table/tbody/tr[2]/td/table/tbody/tr/td[12]/input</Value>
+    </Setting>
+    <Setting Name="OrderSave_XPATH" Type="System.String" Scope="User">
+      <Value Profile="(Default)">//*[@id="quick-order-entry-container"]/div/a[2]</Value>
+    </Setting>
+    <Setting Name="OrderdatePicker_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ui-datepicker-div</Value>
+    </Setting>
+    <Setting Name="OrderId_XPATH" Type="System.String" Scope="User">
+      <Value Profile="(Default)">//*[@id="sales-orders"]/tbody/tr[2]/td[7]/a</Value>
+    </Setting>
+    <Setting Name="supplier_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ddlProductBoardSupplier</Value>
+    </Setting>
+    <Setting Name="AddSalesLine_XPATH" Type="System.String" Scope="User">
+      <Value Profile="(Default)">//*[@id="quick-order-entry-container"]/div[1]/a[1]</Value>
+    </Setting>
+    <Setting Name="SaveOrder_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">save_btn</Value>
+    </Setting>
+    <Setting Name="AddSalesLine_CSS" Type="System.String" Scope="User">
+      <Value Profile="(Default)">form#quick-order-entry-container.grid-form &gt; div.control-group &gt; a.btn.btn-success</Value>
+    </Setting>
+    <Setting Name="DileverySpecLine2_XPATH" Type="System.String" Scope="User">
+      <Value Profile="(Default)">//*[@id="quick-order-entry-container"]/table/tbody/tr[2]/td/table/tbody/tr[2]/td[7]/div/input</Value>
+    </Setting>
+    <Setting Name="orderQtyLine2_XPATH" Type="System.String" Scope="User">
+      <Value Profile="(Default)">//*[@id="quick-order-entry-container"]/table/tbody/tr[2]/td/table/tbody/tr[2]/td[8]/input</Value>
+    </Setting>
+    <Setting Name="OrderDueDateLine2_XPATH" Type="System.String" Scope="User">
+      <Value Profile="(Default)">//*[@id="quick-order-entry-container"]/table/tbody/tr[2]/td/table/tbody/tr[2]/td[10]/input</Value>
+    </Setting>
+    <Setting Name="DileverySpecdropdownLine2_XPATH" Type="System.String" Scope="User">
+      <Value Profile="(Default)">(//div[@class='ui-autocomplete-pagination-results'])[5]/ul/li/a</Value>
+    </Setting>
+    <Setting Name="OrderList_CSS" Type="System.String" Scope="User">
+      <Value Profile="(Default)">div#order-grid-container &gt; div.grid-scroll-wrapper &gt; div#gbox_sales-orders &gt; div#gview_sales-orders &gt; div.ui-jqgrid-bdiv &gt; div &gt; table#sales-orders &gt; tbody &gt; tr:nth-child(2) &gt; td:nth-child(7)&gt; a.underline</Value>
+    </Setting>
+    <Setting Name="filterbyorder_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">filter-by-order-id</Value>
+    </Setting>
+    <Setting Name="FilterOrderDropdown_XPATH" Type="System.String" Scope="User">
+      <Value Profile="(Default)">(//div[@class='ui-autocomplete-pagination-results'])[1]/ul/li[1]/a</Value>
+    </Setting>
+    <Setting Name="filtersalelines_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">filter-sale-lines</Value>
+    </Setting>
+    <Setting Name="orderTableList_XPATH" Type="System.String" Scope="User">
+      <Value Profile="(Default)">//*[@id="sales-orders"]/tbody/tr[2]/td[14]/a</Value>
+    </Setting>
+    <Setting Name="subMenuLiOrders_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">subMenuLiOrders0</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

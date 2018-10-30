@@ -1,0 +1,66 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="CBSAutomation.Locators" GeneratedClassName="PayableReceipts">
+  <Profiles />
+  <Settings>
+    <Setting Name="AcountingMenu_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">menuLIAccounting3</Value>
+    </Setting>
+    <Setting Name="Payablereceipts_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">subMenuLiPayableReceipts3</Value>
+    </Setting>
+    <Setting Name="FilterByPOid_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">filterByCustPO</Value>
+    </Setting>
+    <Setting Name="TypeOfreceipt_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">filterByReceiptTypes</Value>
+    </Setting>
+    <Setting Name="filterByCustomer_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">filterByCustomer</Value>
+    </Setting>
+    <Setting Name="SerachReceipt_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">search</Value>
+    </Setting>
+    <Setting Name="VendorIDReceipt_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Vendor-selector</Value>
+    </Setting>
+    <Setting Name="InvoiceDate_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">invoice-date</Value>
+    </Setting>
+    <Setting Name="Beginpayable_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">payable-start</Value>
+    </Setting>
+    <Setting Name="receiptTable_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">list_Payables</Value>
+    </Setting>
+    <Setting Name="CompletePay_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">payable-complete-button</Value>
+    </Setting>
+    <Setting Name="PayableCustomerDropdown_XPATH" Type="System.String" Scope="User">
+      <Value Profile="(Default)">(//div[@class='ui-autocomplete-pagination-results'])[3]/ul/li[1]/a</Value>
+    </Setting>
+    <Setting Name="PayableDropdown_XPATH" Type="System.String" Scope="User">
+      <Value Profile="(Default)">(//div[@class='ui-autocomplete-pagination-results'])[2]/ul/li[1]/a</Value>
+    </Setting>
+    <Setting Name="filterByStatus_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">filterByStatus</Value>
+    </Setting>
+    <Setting Name="POvalue_XPATH" Type="System.String" Scope="User">
+      <Value Profile="(Default)">//*[@id="list_Payables"]/tbody/tr[2]/td[6]</Value>
+    </Setting>
+    <Setting Name="PayablereceiptsSearch_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">filterByReceiptNumber</Value>
+    </Setting>
+    <Setting Name="ReceiptTable_XPATH" Type="System.String" Scope="User">
+      <Value Profile="(Default)">//table[@id='list_Payables']/tbody/tr[2]</Value>
+    </Setting>
+    <Setting Name="SavePayable_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">save-payable</Value>
+    </Setting>
+    <Setting Name="closebatchReceipt_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">close-batch</Value>
+    </Setting>
+    <Setting Name="FilterByPO_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">filterByCustPO</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

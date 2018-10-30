@@ -1,0 +1,42 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="CBSAutomation.Locators" GeneratedClassName="PurchaseBoard">
+  <Profiles />
+  <Settings>
+    <Setting Name="PrucaseboardOrderID_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">filter-by-order-id</Value>
+    </Setting>
+    <Setting Name="PurchaseBoardSearch_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">search</Value>
+    </Setting>
+    <Setting Name="BoardList_XPATH" Type="System.String" Scope="User">
+      <Value Profile="(Default)">//*[@id="purchase-orders"]/tbody/tr[2]/td</Value>
+    </Setting>
+    <Setting Name="BoardList_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">suppliers-for-grade</Value>
+    </Setting>
+    <Setting Name="BoardListOrder_XPATH" Type="System.String" Scope="User">
+      <Value Profile="(Default)">//*[@id="order-group-detail-grid"]/tbody/tr[2]/td[2]</Value>
+    </Setting>
+    <Setting Name="CreateBoardPO_CSS" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#right-column &gt; #order-group-detail &gt; #order-group-detail-grid &gt; tbody &gt; tr.group-footer &gt; td.generate-po &gt; input.btn-mini.btn-success.create-po</Value>
+    </Setting>
+    <Setting Name="BoardProcessPO_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">goto-board-po-processing</Value>
+    </Setting>
+    <Setting Name="BestPriceSupplier_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">best-price-detail</Value>
+    </Setting>
+    <Setting Name="BoradSupplier_CSS" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#best-price-detail &gt; #suppliers-for-grade-container &gt; #suppliers-for-grade &gt; tbody &gt; tr:nth-child(1)</Value>
+    </Setting>
+    <Setting Name="PurcahseboardMenu_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">subMenuLiPurchaseBoard0</Value>
+    </Setting>
+    <Setting Name="selectBoadPrint_XPATH" Type="System.String" Scope="User">
+      <Value Profile="(Default)">//*[@id="po-grid"]/tbody/tr[2]/td[2]</Value>
+    </Setting>
+    <Setting Name="selectBoadPOValue_XPATH" Type="System.String" Scope="User">
+      <Value Profile="(Default)">//*[@id="po-grid"]/tbody/tr[2]/td[6]</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="2" testcasecount="74" result="Failed" total="29" passed="18" failed="11" inconclusive="0" skipped="0" asserts="5" engine-version="3.8.0.0" clr-version="4.0.30319.42000" start-time="2018-08-30 05:24:19Z" end-time="2018-08-30 06:10:29Z" duration="2770.381923">
+  <command-line><![CDATA[NUNIT3-CONSOLE  E:\GitCBS\cti-pbs\DEV\NET4\SeleniumAutomation\CBSAutomation\CBSAutomation\bin\Debug\CBSAutomation.dll --where namespace==CBSAutomation.TestScripts.Smoke_Test_Scripts  --labels=off --work=$reportNunitInputpath --result="Project.SmokeCases.Test.xml;format=nunit3" ]]></command-line>
+  <filter>
+    <namespace>CBSAutomation.TestScripts.Smoke_Test_Scripts</namespace>
+  </filter>
+  <test-suite type="Assembly" id="0-1099" name="CBSAutomation.dll" fullname="E:\GitCBS\cti-pbs\DEV\NET4\SeleniumAutomation\CBSAutomation\CBSAutomation\bin\Debug\CBSAutomation.dll" runstate="Runnable" testcasecount="74" result="Failed" site="Child" start-time="2018-08-30 05:24:20Z" end-time="2018-08-30 06:10:29Z" duration="2769.475501" total="29" passed="18" failed="11" warnings="0" inconclusive="0" skipped="0" asserts="5">
+    <environment framework-version="3.10.1.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.14393.0" platform="Win32NT" cwd="E:\GitCBS\cti-pbs\DEV\NET4\SeleniumAutomation\CBSAutomation\CBSAutomation\Nunit" machine-name="VEENAHON-W10LT" user="veenahon" user-domain="EFI" culture="en-US" uiculture="en-US" os-architecture="x64" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="WorkDirectory" value="$reportNunitInputpath" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.5.2" />
+      <setting name="ImageRequiresX86" value="False" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="NumberOfTestWorkers" value="4" />
+    </settings>
+    <properties>
+      <property name="_PID" value="28860" />
+      <property name="_APPDOMAIN" value="domain-" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="TestSuite" id="0-1100" name="CBSAutomation" fullname="CBSAutomation" runstate="Runnable" testcasecount="74" result="Failed" site="Child" start-time="2018-08-30 05:24:20Z" end-time="2018-08-30 06:10:29Z" duration="2769.453707" total="29" passed="18" failed="11" warnings="0" inconclusive="0" skipped="0" asserts="5">
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="0-1101" name="TestScripts" fullname="CBSAutomation.TestScripts" runstate="Runnable" testcasecount="74" result="Failed" site="Child" start-time="2018-08-30 05:24:20Z" end-time="2018-08-30 06:10:29Z" duration="2769.453185" total="29" passed="18" failed="11" warnings="0" inconclusive="0" skipped="0" asserts="5">
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="0-1102" name="Smoke_Test_Scripts" fullname="CBSAutomation.TestScripts.Smoke_Test_Scripts" runstate="Runnable" testcasecount="29" result="Failed" site="Child" start-time="2018-08-30 05:24:20Z" end-time="2018-08-30 06:10:29Z" duration="2769.452928" total="29" passed="18" failed="11" warnings="0" inconclusive="0" skipped="0" asserts="5">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestFixture" id="0-1018" name="CreateCustomer" fullname="CBSAutomation.TestScripts.Smoke_Test_Scripts.CreateCustomer" classname="CBSAutomation.TestScripts.Smoke_Test_Scripts.CreateCustomer" runstate="Runnable" testcasecount="1" result="Passed" start-time="2018-08-30 05:24:20Z" end-time="2018-08-30 05:25:30Z" duration="70.527900" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+            <properties>
+              <property name="Order" value="1" />
+            </properties>
+            <test-case id="0-1019" name="CreateCustomerTest1" fullname="CBSAutomation.TestScripts.Smoke_Test_Scripts.CreateCustomer.CreateCustomerTest1" methodname="CreateCustomerTest1" classname="CBSAutomation.TestScripts.Smoke_Test_Scripts.CreateCustomer" runstate="Runnable" seed="265593134" result="Passed" start-time="2018-08-30 05:24:35Z" end-time="2018-08-30 05:25:19Z" duration="43.985609" asserts="0" />
+          </test-suite>
+          <test-suite type="TestFixture" id="0-1014" name="CreateMaterial" fullname="CBSAutomation.TestScripts.Smoke_Test_Scripts.CreateMaterial" classname="CBSAutomation.TestScripts.Smoke_Test_Scripts.CreateMaterial" runstate="Runnable" testcasecount="3" result="Passed" start-time="2018-08-30 05:25:30Z" end-time="2018-08-30 05:26:35Z" duration="64.575719" total="3" passed="3" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+            <properties>
+              <property name="Order" value="2" />
+            </properties>
+            <test-case id="0-1015" name="CreateAInkColourMaterialTest1" fullname="CBSAutomation.TestScripts.Smoke_Test_Scripts.CreateMaterial.CreateAInkColourMaterialTest1" methodname="CreateAInkColourMaterialTest1" classname="CBSAutomation.TestScripts.Smoke_Test_Scripts.CreateMaterial" runstate="Runnable" seed="1204711740" result="Passed" start-time="2018-08-30 05:25:37Z" end-time="2018-08-30 05:25:55Z" duration="17.781429" asserts="0" />
+            <test-case id="0-1016" name="CreateBCoatingColourMaterialTest2" fullname="CBSAutomation.TestScripts.Smoke_Test_Scripts.CreateMaterial.CreateBCoatingColourMaterialTest2" methodname="CreateBCoatingColourMaterialTest2" classname="CBSAutomation.TestScripts.Smoke_Test_Scripts.CreateMaterial" runstate="Runnable" seed="173208111" result="Passed" start-time="2018-08-30 05:25:55Z" end-time="2018-08-30 05:26:11Z" duration="16.762459" asserts="0" />
+            <test-case id="0-1017" name="CreateCGlueColourMaterialTest3" fullname="CBSAutomation.TestScripts.Smoke_Test_Scripts.CreateMaterial.CreateCGlueColourMaterialTest3" methodname="CreateCGlueColourMaterialTest3" classname="CBSAutomation.TestScripts.Smoke_Test_Scripts.CreateMaterial" runstate="Runnable" seed="90377359" result="Passed" start-time="2018-08-30 05:26:11Z" end-time="2018-08-30 05:26:28Z" duration="17.009016" asserts="0" />
+          </test-suite>
+          <test-suite type="TestFixture" id="0-1033" name="ToolCreation" fullname="CBSAutomation.TestScripts.Smoke_Test_Scripts.ToolCreation" classname="CBSAutomation.TestScripts.Smoke_Test_Scripts.ToolCreation" runstate="Runnable" testcasecount="6" result="Passed" start-time="2018-08-30 05:26:35Z" end-time="2018-08-30 05:28:29Z" duration="114.133097" total="6" passed="6" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="2">
+            <properties>
+              <property name="Order" value="3" />
+            </properties>
+            <test-case id="0-1034" name="CreateToolAndApproveTest1" fullname="CBSAutomation.TestScripts.Smoke_Test_Scripts.ToolCreation.CreateToolAndApproveTest1" methodname="CreateToolAndApproveTest1" classname="CBSAutomation.TestScripts.Smoke_Test_Scripts.ToolCreation" runstate="Runnable" seed="1153872902" result="Passed" start-time="2018-08-30 05:26:41Z" end-time="2018-08-30 05:27:01Z" duration="19.868267" asserts="0" />
+            <test-case id="0-1035" name="CreateToolAndApproveTest2" fullname="CBSAutomation.TestScripts.Smoke_Test_Scripts.ToolCreation.CreateToolAndApproveTest2" methodname="CreateToolAndApproveTest2" classname="CBSAutomation.TestScripts.Smoke_Test_Scripts.ToolCreation" runstate="Runnable" seed="1164441965" result="Passed" start-time="2018-08-30 05:27:01Z" end-time="2018-08-30 05:27:13Z" duration="11.362533" asserts="0" />
+            <test-case id="0-1036" name="CreateToolAndApproveTest3" fullname="CBSAutomation.TestScripts.Smoke_Test_Scripts.ToolCreation.CreateToolAndApproveTest3" methodname="CreateToolAndApproveTest3" classname="CBSAutomation.TestScripts.Smoke_Test_Scripts.ToolCreation" runstate="Runnable" seed="594747864" result="Passed" start-time="2018-08-30 05:27:13Z" end-time="2018-08-30 05:27:29Z" duration="16.461685" asserts="0" />
+            <test-case id="0-1037" name="CreateToolAndApproveTest4" fullname="CBSAutomation.TestScripts.Smoke_Test_Scripts.ToolCreation.CreateToolAndApproveTest4" methodname="CreateToolAndApproveTest4" classname="CBSAutomation.TestScripts.Smoke_Test_Scripts.ToolCreation" runstate="Runnable" seed="1483873220" result="Passed" start-time="2018-08-30 05:27:29Z" end-time="2018-08-30 05:27:41Z" duration="12.213033" asserts="0" />
+            <test-case id="0-1038" name="CreateToolAndApproveTest5" fullname="CBSAutomation.TestScripts.Smoke_Test_Scripts.ToolCreation.CreateToolAndApproveTest5" methodname="CreateToolAndApproveTest5" classname="CBSAutomation.TestScripts.Smoke_Test_Scripts.ToolCreation" runstate="Runnable" seed="944315634" result="Passed" start-time="2018-08-30 05:27:41Z" end-time="2018-08-30 05:28:01Z" duration="19.487590" asserts="1" />
+            <test-case id="0-1039" name="CreateToolAndApproveTest6" fullname="CBSAutomation.TestScripts.Smoke_Test_Scripts.ToolCreation.CreateToolAndApproveTest6" methodname="CreateToolAndApproveTest6" classname="CBSAutomation.TestScripts.Smoke_Test_Scripts.ToolCreation" runstate="Runnable" seed="512959037" result="Passed" start-time="2018-08-30 05:28:01Z" end-time="2018-08-30 05:28:23Z" duration="22.135415" asserts="1" />
+          </test-suite>
+          <test-suite type="TestFixture" id="0-1000" name="CreateDieCutSpecs" fullname="CBSAutomation.TestScripts.Smoke_Test_Scripts.CreateDieCutSpecs" classname="CBSAutomation.TestScripts.Smoke_Test_Scripts.CreateDieCutSpecs" runstate="Runnable" testcasecount="3" result="Passed" start-time="2018-08-30 05:28:29Z" end-time="2018-08-30 05:31:08Z" duration="158.689202" total="3" passed="3" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+            <properties>
+              <property name="Order" value="4" />
+            </properties>
+            <test-case id="0-1001" name="CreateProductSpecDieCutTest1" fullname="CBSAutomation.TestScripts.Smoke_Test_Scripts.CreateDieCutSpecs.CreateProductSpecDieCutTest1" methodname="CreateProductSpecDieCutTest1" classname="CBSAutomation.TestScripts.Smoke_Test_Scripts.CreateDieCutSpecs" runstate="Runnable" seed="563477486" result="Passed" start-time="2018-08-30 05:28:35Z" end-time="2018-08-30 05:28:53Z" duration="17.963834" asserts="0" />
+            <test-case id="0-1002" name="CreateProductSpecDieCutTest2" fullname="CBSAutomation.TestScripts.Smoke_Test_Scripts.CreateDieCutSpecs.CreateProductSpecDieCutTest2" methodname="CreateProductSpecDieCutTest2" classname="CBSAutomation.TestScripts.Smoke_Test_Scripts.CreateDieCutSpecs" runstate="Runnable" seed="283865529" result="Passed" start-time="2018-08-30 05:28:53Z" end-time="2018-08-30 05:30:04Z" duration="71.038022" asserts="1" />
+            <test-case id="0-1003" name="CreateProductSpecDieCutTest3" fullname="CBSAutomation.TestScripts.Smoke_Test_Scripts.CreateDieCutSpecs.CreateProductSpecDieCutTest3" methodname="CreateProductSpecDieCutTest3" classname="CBSAutomation.TestScripts.Smoke_Test_Scripts.CreateDieCutSpecs" runstate="Runnable" seed="116908865" result="Passed" start-time="2018-08-30 05:30:04Z" end-time="2018-08-30 05:30:56Z" duration="51.722804" asserts="0" />
+          </test-suite>
+          <test-suite type="TestFixture" id="0-1010" name="CreateSpecification" fullname="CBSAutomation.TestScripts.Smoke_Test_Scripts.CreateSpecification" classname="CBSAutomation.TestScripts.Smoke_Test_Scripts.CreateSpecification" runstate="Runnable" testcasecount="3" result="Passed" start-time="2018-08-30 05:31:08Z" end-time="2018-08-30 05:35:01Z" duration="233.578073" total="3" passed="3" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="2">
+            <properties>
+              <property name="Order" value="5" />
+            </properties>
+            <test-case id="0-1011" name="CreateProductRSCSpecTest1" fullname="CBSAutomation.TestScripts.Smoke_Test_Scripts.CreateSpecification.CreateProductRSCSpecTest1" methodname="CreateProductRSCSpecTest1" classname="CBSAutomation.TestScripts.Smoke_Test_Scripts.CreateSpecification" runstate="Runnable" seed="1445211605" result="Passed" start-time="2018-08-30 05:31:33Z" end-time="2018-08-30 05:33:01Z" duration="88.365312" asserts="0" />
+            <test-case id="0-1012" name="CreateProductRSCSpecTest2" fullname="CBSAutomation.TestScripts.Smoke_Test_Scripts.CreateSpecification.CreateProductRSCSpecTest2" methodname="CreateProductRSCSpecTest2" classname="CBSAutomation.TestScripts.Smoke_Test_Scripts.CreateSpecification" runstate="Runnable" seed="717664920" result="Passed" start-time="2018-08-30 05:33:01Z" end-time="2018-08-30 05:34:23Z" duration="81.986022" asserts="2" />
+            <test-case id="0-1013" name="CreateProductRSCSpecTest3" fullname="CBSAutomation.TestScripts.Smoke_Test_Scripts.CreateSpecification.CreateProductRSCSpecTest3" methodname="CreateProductRSCSpecTest3" classname="CBSAutomation.TestScripts.Smoke_Test_Scripts.CreateSpecification" runstate="Runnable" seed="106282539" result="Passed" start-time="2018-08-30 05:34:23Z" end-time="2018-08-30 05:35:01Z" duration="37.927158" asserts="0" />
+          </test-suite>
+          <test-suite type="TestFixture" id="0-1008" name="CreateQuotation" fullname="CBSAutomation.TestScripts.Smoke_Test_Scripts.CreateQuotation" classname="CBSAutomation.TestScripts.Smoke_Test_Scripts.CreateQuotation" runstate="Runnable" testcasecount="1" result="Passed" start-time="2018-08-30 05:35:01Z" end-time="2018-08-30 05:35:43Z" duration="42.059294" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+            <properties>
+              <property name="Order" value="6" />
+            </properties>
+            <test-case id="0-1009" name="CreateQuotationTest1" fullname="CBSAutomation.TestScripts.Smoke_Test_Scripts.CreateQuotation.CreateQuotationTest1" methodname="CreateQuotationTest1" classname="CBSAutomation.TestScripts.Smoke_Test_Scripts.CreateQuotation" runstate="Runnable" seed="1447372174" result="Passed" start-time="2018-08-30 05:35:01Z" end-time="2018-08-30 05:35:37Z" duration="35.396333" asserts="0" />
+          </test-suite>
+          <test-suite type="TestFixture" id="0-1020" name="MultipleOrders" fullname="CBSAutomation.TestScripts.Smoke_Test_Scripts.MultipleOrders" classname="CBSAutomation.TestScripts.Smoke_Test_Scripts.MultipleOrders" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2018-08-30 05:35:43Z" end-time="2018-08-30 05:36:08Z" duration="24.695659" total="1" passed="0" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="0">
+            <properties>
+              <property name="Order" value="7" />
+            </properties>
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="0-1021" name="CreateOneOrderLineTest" fullname="CBSAutomation.TestScripts.Smoke_Test_Scripts.MultipleOrders.CreateOneOrderLineTest" methodname="CreateOneOrderLineTest" classname="CBSAutomation.TestScripts.Smoke_Test_Scripts.MultipleOrders" runstate="Runnable" seed="939273238" result="Failed" label="Error" start-time="2018-08-30 05:35:51Z" end-time="2018-08-30 05:36:01Z" duration="10.126191" asserts="0">
+              <failure>
+                <message><![CDATA[OpenQA.Selenium.WebDriverTimeoutException : Timed out after 1E-06 seconds]]></message>
+                <stack-trace><![CDATA[   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at CBSAutomation.CommonFunctions.WaitAndClickDropDown(IWebDriver driver, By locator) in E:\GitCBS\cti-pbs\DEV\NET4\SeleniumAutomation\CBSAutomation\CBSAutomation\CommonFunctions.cs:line 75
+   at CBSAutomation.Pages.CreateNewOrder.eneterNewOrderEntry(IWebDriver driver, ExtentTest test, String Qty, String OrdDueDate, String OrderSpecID) in E:\GitCBS\cti-pbs\DEV\NET4\SeleniumAutomation\CBSAutomation\CBSAutomation\Pages\CreateNewOrder.cs:line 55
+   at CBSAutomation.TestScripts.Smoke_Test_Scripts.MultipleOrders.CreateOneOrderLineTest() in E:\GitCBS\cti-pbs\DEV\NET4\SeleniumAutomation\CBSAutomation\CBSAutomation\TestScripts\Smoke Test Scripts\MultipleOrders.cs:line 57]]></stack-trace>
+              </failure>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="0-1004" name="CreateMaterialPO" fullname="CBSAutomation.TestScripts.Smoke_Test_Scripts.CreateMaterialPO" classname="CBSAutomation.TestScripts.Smoke_Test_Scripts.CreateMaterialPO" runstate="Runnable" testcasecount="3" result="Failed" label="Error" site="TearDown" start-time="2018-08-30 05:36:08Z" end-time="2018-08-30 06:10:20Z" duration="2052.260685" total="3" passed="1" failed="2" warnings="0" inconclusive="0" skipped="0" asserts="0">
+            <properties>
+              <property name="Order" value="8" />
+            </properties>
+            <failure>
+              <message><![CDATA[One or more child tests had errors
+TearDown : OpenQA.Selenium.WebDriverException : The HTTP request to the remote WebDriver server for URL http://localhost:56287/session/a01c3a1d741a6c4ad4804378653236a8/window timed out after 500 seconds.
+  ----> System.Net.WebException : The request was aborted: The operation has timed out.]]></message>
+              <stack-trace><![CDATA[--TearDown
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Remote.DriverServiceCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at CBSAutomation.Driver.CloseBrowser() in E:\GitCBS\cti-pbs\DEV\NET4\SeleniumAutomation\CBSAutomation\CBSAutomation\Base Classes\Driver.cs:line 120
+   at CBSAutomation.TestScripts.Smoke_Test_Scripts.CreateMaterialPO.BrowserLogout() in E:\GitCBS\cti-pbs\DEV\NET4\SeleniumAutomation\CBSAutomation\CBSAutomation\TestScripts\Smoke Test Scripts\CreateMaterialPO.cs:line 122
+--WebException
+   at System.Net.HttpWebRequest.GetResponse()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)]]></stack-trace>
+            </failure>
+            <test-case id="0-1005" name="CreateMaterialPOTest" fullname="CBSAutomation.TestScripts.Smoke_Test_Scripts.CreateMaterialPO.CreateMaterialPOTest" methodname="CreateMaterialPOTest" classname="CBSAutomation.TestScripts.Smoke_Test_Scripts.CreateMaterialPO" runstate="Runnable" seed="1474443021" result="Passed" start-time="2018-08-30 05:36:16Z" end-time="2018-08-30 05:36:49Z" duration="32.403470" asserts="0" />
+            <test-case id="0-1006" name="ProcessMaterialAndApproveTest4" fullname="CBSAutomation.TestScripts.Smoke_Test_Scripts.CreateMaterialPO.ProcessMaterialAndApproveTest4" methodname="ProcessMaterialAndApproveTest4" classname="CBSAutomation.TestScripts.Smoke_Test_Scripts.CreateMaterialPO" runstate="Runnable" seed="1500768587" result="Failed" label="Error" start-time="2018-08-30 05:36:49Z" end-time="2018-08-30 05:45:18Z" duration="509.755865" asserts="0">
+              <failure>
+                <message><![CDATA[OpenQA.Selenium.WebDriverException : The HTTP request to the remote WebDriver server for URL http://localhost:56287/session/a01c3a1d741a6c4ad4804378653236a8/element timed out after 500 seconds.
+  ----> System.Net.WebException : The request was aborted: The operation has timed out.]]></message>
+                <stack-trace><![CDATA[   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Remote.DriverServiceCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at CBSAutomation.Pages.POProcessingPage.ProcessMaterialPO(IWebDriver driver, String materialid) in E:\GitCBS\cti-pbs\DEV\NET4\SeleniumAutomation\CBSAutomation\CBSAutomation\Pages\POProcessingPage.cs:line 105
+   at CBSAutomation.TestScripts.Smoke_Test_Scripts.CreateMaterialPO.ProcessMaterialAndApproveTest4() in E:\GitCBS\cti-pbs\DEV\NET4\SeleniumAutomation\CBSAutomation\CBSAutomation\TestScripts\Smoke Test Scripts\CreateMaterialPO.cs:line 82
+--WebException
+   at System.Net.HttpWebRequest.GetResponse()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="0-1007" name="ReceivePurchaseOrdert1" fullname="CBSAutomation.TestScripts.Smoke_Test_Scripts.CreateMaterialPO.ReceivePurchaseOrdert1" methodname="ReceivePurchaseOrdert1" classname="CBSAutomation.TestScripts.Smoke_Test_Scripts.CreateMaterialPO" runstate="Runnable" seed="626428695" result="Failed" label="Error" start-time="2018-08-30 05:45:18Z" end-time="2018-08-30 05:53:38Z" duration="500.025830" asserts="0">
+              <failure>
+                <message><![CDATA[OpenQA.Selenium.WebDriverException : The HTTP request to the remote WebDriver server for URL http://localhost:56287/session/a01c3a1d741a6c4ad4804378653236a8/element timed out after 500 seconds.
+  ----> System.Net.WebException : The request was aborted: The operation has timed out.]]></message>
+                <stack-trace><![CDATA[   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Remote.DriverServiceCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at CBSAutomation.Pages.RecevingPOPage.ReceivePO(IWebDriver driver, ExtentTest test, String receivesupplier, String receivePo, String units, String unitqty, String lastunitqty, String receivevendorID, String receiveshipmentID) in E:\GitCBS\cti-pbs\DEV\NET4\SeleniumAutomation\CBSAutomation\CBSAutomation\Pages\RecevingPOPage.cs:line 26
+   at CBSAutomation.TestScripts.Smoke_Test_Scripts.CreateMaterialPO.ReceivePurchaseOrdert1() in E:\GitCBS\cti-pbs\DEV\NET4\SeleniumAutomation\CBSAutomation\CBSAutomation\TestScripts\Smoke Test Scripts\CreateMaterialPO.cs:line 101
+--WebException
+   at System.Net.HttpWebRequest.GetResponse()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)]]></stack-trace>
+              </failure>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="0-1030" name="RecevingPOTest" fullname="CBSAutomation.TestScripts.Smoke_Test_Scripts.RecevingPOTest" classname="CBSAutomation.TestScripts.Smoke_Test_Scripts.RecevingPOTest" runstate="Runnable" testcasecount="2" result="Failed" label="Error" site="TearDown" start-time="2018-08-30 06:10:20Z" end-time="2018-08-30 06:10:23Z" duration="2.822442" total="2" passed="0" failed="2" warnings="0" inconclusive="0" skipped="0" asserts="0">
+            <properties>
+              <property name="Order" value="9" />
+            </properties>
+            <failure>
+              <message><![CDATA[One or more child tests had errors
+TearDown : OpenQA.Selenium.WebDriverException : no such session
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.14393 x86_64)]]></message>
+              <stack-trace><![CDATA[--TearDown
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at CBSAutomation.Driver.CloseBrowser() in E:\GitCBS\cti-pbs\DEV\NET4\SeleniumAutomation\CBSAutomation\CBSAutomation\Base Classes\Driver.cs:line 120
+   at CBSAutomation.TestScripts.Smoke_Test_Scripts.RecevingPOTest.BrowserLogout() in E:\GitCBS\cti-pbs\DEV\NET4\SeleniumAutomation\CBSAutomation\CBSAutomation\TestScripts\Smoke Test Scripts\RecevingPOTest.cs:line 88]]></stack-trace>
+            </failure>
+            <test-case id="0-1031" name="ReceivePurchaseOrdert1" fullname="CBSAutomation.TestScripts.Smoke_Test_Scripts.RecevingPOTest.ReceivePurchaseOrdert1" methodname="ReceivePurchaseOrdert1" classname="CBSAutomation.TestScripts.Smoke_Test_Scripts.RecevingPOTest" runstate="Runnable" seed="1982374515" result="Failed" label="Error" start-time="2018-08-30 06:10:20Z" end-time="2018-08-30 06:10:21Z" duration="0.798542" asserts="0">
+              <failure>
+                <message><![CDATA[OpenQA.Selenium.WebDriverException : no such session
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.14393 x86_64)]]></message>
+                <stack-trace><![CDATA[   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at CBSAutomation.Pages.RecevingPOPage.ReceivePO(IWebDriver driver, ExtentTest test, String receivesupplier, String receivePo, String units, String unitqty, String lastunitqty, String receivevendorID, String receiveshipmentID) in E:\GitCBS\cti-pbs\DEV\NET4\SeleniumAutomation\CBSAutomation\CBSAutomation\Pages\RecevingPOPage.cs:line 26
+   at CBSAutomation.TestScripts.Smoke_Test_Scripts.RecevingPOTest.ReceivePurchaseOrdert1() in E:\GitCBS\cti-pbs\DEV\NET4\SeleniumAutomation\CBSAutomation\CBSAutomation\TestScripts\Smoke Test Scripts\RecevingPOTest.cs:line 56]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="0-1032" name="ReceivePurchaseOrdert2" fullname="CBSAutomation.TestScripts.Smoke_Test_Scripts.RecevingPOTest.ReceivePurchaseOrdert2" methodname="ReceivePurchaseOrdert2" classname="CBSAutomation.TestScripts.Smoke_Test_Scripts.RecevingPOTest" runstate="Runnable" seed="1941776809" result="Failed" label="Error" start-time="2018-08-30 06:10:21Z" end-time="2018-08-30 06:10:21Z" duration="0.008862" asserts="0">
+              <failure>
+                <message><![CDATA[OpenQA.Selenium.WebDriverException : no such session
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.14393 x86_64)]]></message>
+                <stack-trace><![CDATA[   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at CBSAutomation.Pages.RecevingPOPage.ReceiveBoardPO(IWebDriver driver, ExtentTest test, String receivesupplier, String receivePo, String units, String unitqty, String lastunitqty, String receivevendorID, String receiveshipmentID) in E:\GitCBS\cti-pbs\DEV\NET4\SeleniumAutomation\CBSAutomation\CBSAutomation\Pages\RecevingPOPage.cs:line 51
+   at CBSAutomation.TestScripts.Smoke_Test_Scripts.RecevingPOTest.ReceivePurchaseOrdert2() in E:\GitCBS\cti-pbs\DEV\NET4\SeleniumAutomation\CBSAutomation\CBSAutomation\TestScripts\Smoke Test Scripts\RecevingPOTest.cs:line 71]]></stack-trace>
+              </failure>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="0-1026" name="PurchaseBoardTest" fullname="CBSAutomation.TestScripts.Smoke_Test_Scripts.PurchaseBoardTest" classname="CBSAutomation.TestScripts.Smoke_Test_Scripts.PurchaseBoardTest" runstate="Runnable" testcasecount="3" result="Failed" label="Error" site="TearDown" start-time="2018-08-30 06:10:23Z" end-time="2018-08-30 06:10:27Z" duration="4.034139" total="3" passed="0" failed="3" warnings="0" inconclusive="0" skipped="0" asserts="0">
+            <properties>
+              <property name="Order" value="10" />
+            </properties>
+            <failure>
+              <message><![CDATA[One or more child tests had errors
+TearDown : OpenQA.Selenium.WebDriverException : no such session
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.14393 x86_64)]]></message>
+              <stack-trace><![CDATA[--TearDown
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at CBSAutomation.Driver.CloseBrowser() in E:\GitCBS\cti-pbs\DEV\NET4\SeleniumAutomation\CBSAutomation\CBSAutomation\Base Classes\Driver.cs:line 120
+   at CBSAutomation.TestScripts.Smoke_Test_Scripts.PurchaseBoardTest.BrowserLogout() in E:\GitCBS\cti-pbs\DEV\NET4\SeleniumAutomation\CBSAutomation\CBSAutomation\TestScripts\Smoke Test Scripts\PurchaseBoardTest.cs:line 100]]></stack-trace>
+            </failure>
+            <test-case id="0-1027" name="CreateBoardPurchaseOrdert1" fullname="CBSAutomation.TestScripts.Smoke_Test_Scripts.PurchaseBoardTest.CreateBoardPurchaseOrdert1" methodname="CreateBoardPurchaseOrdert1" classname="CBSAutomation.TestScripts.Smoke_Test_Scripts.PurchaseBoardTest" runstate="Runnable" seed="1254601260" result="Failed" label="Error" start-time="2018-08-30 06:10:23Z" end-time="2018-08-30 06:10:23Z" duration="0.017990" asserts="0">
+              <failure>
+                <message><![CDATA[OpenQA.Selenium.WebDriverException : no such session
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.14393 x86_64)]]></message>
+                <stack-trace><![CDATA[   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at CBSAutomation.Pages.PurchaseBoardPage.POforBoard(IWebDriver driver, ExtentTest test, String BoardOrderID) in E:\GitCBS\cti-pbs\DEV\NET4\SeleniumAutomation\CBSAutomation\CBSAutomation\Pages\PurchaseBoardPage.cs:line 24
+   at CBSAutomation.TestScripts.Smoke_Test_Scripts.PurchaseBoardTest.CreateBoardPurchaseOrdert1() in E:\GitCBS\cti-pbs\DEV\NET4\SeleniumAutomation\CBSAutomation\CBSAutomation\TestScripts\Smoke Test Scripts\PurchaseBoardTest.cs:line 52]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="0-1028" name="CreateBoardPurchaseOrdert2" fullname="CBSAutomation.TestScripts.Smoke_Test_Scripts.PurchaseBoardTest.CreateBoardPurchaseOrdert2" methodname="CreateBoardPurchaseOrdert2" classname="CBSAutomation.TestScripts.Smoke_Test_Scripts.PurchaseBoardTest" runstate="Runnable" seed="1564161122" result="Failed" label="Error" start-time="2018-08-30 06:10:23Z" end-time="2018-08-30 06:10:23Z" duration="0.017186" asserts="0">
+              <failure>
+                <message><![CDATA[OpenQA.Selenium.WebDriverException : no such session
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.14393 x86_64)]]></message>
+                <stack-trace><![CDATA[   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at CBSAutomation.Pages.POProcessingPage.ProcessBoardPO(IWebDriver driver, String BoardOrderlid) in E:\GitCBS\cti-pbs\DEV\NET4\SeleniumAutomation\CBSAutomation\CBSAutomation\Pages\POProcessingPage.cs:line 54
+   at CBSAutomation.TestScripts.Smoke_Test_Scripts.PurchaseBoardTest.CreateBoardPurchaseOrdert2() in E:\GitCBS\cti-pbs\DEV\NET4\SeleniumAutomation\CBSAutomation\CBSAutomation\TestScripts\Smoke Test Scripts\PurchaseBoardTest.cs:line 62]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="0-1029" name="ReceivePurchaseOrdert2" fullname="CBSAutomation.TestScripts.Smoke_Test_Scripts.PurchaseBoardTest.ReceivePurchaseOrdert2" methodname="ReceivePurchaseOrdert2" classname="CBSAutomation.TestScripts.Smoke_Test_Scripts.PurchaseBoardTest" runstate="Runnable" seed="1691448901" result="Failed" label="Error" start-time="2018-08-30 06:10:23Z" end-time="2018-08-30 06:10:25Z" duration="1.988646" asserts="0">
+              <failure>
+                <message><![CDATA[OpenQA.Selenium.WebDriverException : no such session
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.14393 x86_64)]]></message>
+                <stack-trace><![CDATA[   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at CBSAutomation.Pages.RecevingPOPage.ReceiveBoardPO(IWebDriver driver, ExtentTest test, String receivesupplier, String receivePo, String units, String unitqty, String lastunitqty, String receivevendorID, String receiveshipmentID) in E:\GitCBS\cti-pbs\DEV\NET4\SeleniumAutomation\CBSAutomation\CBSAutomation\Pages\RecevingPOPage.cs:line 51
+   at CBSAutomation.TestScripts.Smoke_Test_Scripts.PurchaseBoardTest.ReceivePurchaseOrdert2() in E:\GitCBS\cti-pbs\DEV\NET4\SeleniumAutomation\CBSAutomation\CBSAutomation\TestScripts\Smoke Test Scripts\PurchaseBoardTest.cs:line 81]]></stack-trace>
+              </failure>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="0-1022" name="PayableReceiptsTest" fullname="CBSAutomation.TestScripts.Smoke_Test_Scripts.PayableReceiptsTest" classname="CBSAutomation.TestScripts.Smoke_Test_Scripts.PayableReceiptsTest" runstate="Runnable" testcasecount="3" result="Failed" label="Error" site="TearDown" start-time="2018-08-30 06:10:27Z" end-time="2018-08-30 06:10:29Z" duration="2.048863" total="3" passed="0" failed="3" warnings="0" inconclusive="0" skipped="0" asserts="0">
+            <properties>
+              <property name="Order" value="11" />
+            </properties>
+            <failure>
+              <message><![CDATA[One or more child tests had errors
+TearDown : OpenQA.Selenium.WebDriverException : no such session
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.14393 x86_64)]]></message>
+              <stack-trace><![CDATA[--TearDown
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at CBSAutomation.Driver.CloseBrowser() in E:\GitCBS\cti-pbs\DEV\NET4\SeleniumAutomation\CBSAutomation\CBSAutomation\Base Classes\Driver.cs:line 120
+   at CBSAutomation.TestScripts.Smoke_Test_Scripts.PayableReceiptsTest.BrowserLogout() in E:\GitCBS\cti-pbs\DEV\NET4\SeleniumAutomation\CBSAutomation\CBSAutomation\TestScripts\Smoke Test Scripts\PayableReceiptsTest.cs:line 102]]></stack-trace>
+            </failure>
+            <test-case id="0-1023" name="ReceivePurchaseOrdertBoard1" fullname="CBSAutomation.TestScripts.Smoke_Test_Scripts.PayableReceiptsTest.ReceivePurchaseOrdertBoard1" methodname="ReceivePurchaseOrdertBoard1" classname="CBSAutomation.TestScripts.Smoke_Test_Scripts.PayableReceiptsTest" runstate="Runnable" seed="1815082037" result="Failed" label="Error" start-time="2018-08-30 06:10:27Z" end-time="2018-08-30 06:10:27Z" duration="0.009770" asserts="0">
+              <failure>
+                <message><![CDATA[OpenQA.Selenium.WebDriverException : no such session
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.14393 x86_64)]]></message>
+                <stack-trace><![CDATA[   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at CBSAutomation.Pages.PayableReceiptsPage.PayableReceiptsCreation(IWebDriver driver, ExtentTest test, String Vendorid, String receiptIDfilter, String dateofpayable, String Receiptypes) in E:\GitCBS\cti-pbs\DEV\NET4\SeleniumAutomation\CBSAutomation\CBSAutomation\Pages\PayableReceiptsPage.cs:line 26
+   at CBSAutomation.TestScripts.Smoke_Test_Scripts.PayableReceiptsTest.ReceivePurchaseOrdertBoard1() in E:\GitCBS\cti-pbs\DEV\NET4\SeleniumAutomation\CBSAutomation\CBSAutomation\TestScripts\Smoke Test Scripts\PayableReceiptsTest.cs:line 56]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="0-1024" name="ReceivePurchaseOrdertMaterial1" fullname="CBSAutomation.TestScripts.Smoke_Test_Scripts.PayableReceiptsTest.ReceivePurchaseOrdertMaterial1" methodname="ReceivePurchaseOrdertMaterial1" classname="CBSAutomation.TestScripts.Smoke_Test_Scripts.PayableReceiptsTest" runstate="Runnable" seed="1048104713" result="Failed" label="Error" start-time="2018-08-30 06:10:27Z" end-time="2018-08-30 06:10:27Z" duration="0.007143" asserts="0">
+              <failure>
+                <message><![CDATA[OpenQA.Selenium.WebDriverException : no such session
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.14393 x86_64)]]></message>
+                <stack-trace><![CDATA[   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at CBSAutomation.Pages.PayableReceiptsPage.PayableReceiptsCreation(IWebDriver driver, ExtentTest test, String Vendorid, String receiptIDfilter, String dateofpayable, String Receiptypes) in E:\GitCBS\cti-pbs\DEV\NET4\SeleniumAutomation\CBSAutomation\CBSAutomation\Pages\PayableReceiptsPage.cs:line 26
+   at CBSAutomation.TestScripts.Smoke_Test_Scripts.PayableReceiptsTest.ReceivePurchaseOrdertMaterial1() in E:\GitCBS\cti-pbs\DEV\NET4\SeleniumAutomation\CBSAutomation\CBSAutomation\TestScripts\Smoke Test Scripts\PayableReceiptsTest.cs:line 70]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="0-1025" name="ReceivePurchaseOrdertTool1" fullname="CBSAutomation.TestScripts.Smoke_Test_Scripts.PayableReceiptsTest.ReceivePurchaseOrdertTool1" methodname="ReceivePurchaseOrdertTool1" classname="CBSAutomation.TestScripts.Smoke_Test_Scripts.PayableReceiptsTest" runstate="Runnable" seed="646760763" result="Failed" label="Error" start-time="2018-08-30 06:10:27Z" end-time="2018-08-30 06:10:27Z" duration="0.007035" asserts="0">
+              <failure>
+                <message><![CDATA[OpenQA.Selenium.WebDriverException : no such session
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.14393 x86_64)]]></message>
+                <stack-trace><![CDATA[   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at CBSAutomation.Pages.PayableReceiptsPage.PayableReceiptsCreation(IWebDriver driver, ExtentTest test, String Vendorid, String receiptIDfilter, String dateofpayable, String Receiptypes) in E:\GitCBS\cti-pbs\DEV\NET4\SeleniumAutomation\CBSAutomation\CBSAutomation\Pages\PayableReceiptsPage.cs:line 26
+   at CBSAutomation.TestScripts.Smoke_Test_Scripts.PayableReceiptsTest.ReceivePurchaseOrdertTool1() in E:\GitCBS\cti-pbs\DEV\NET4\SeleniumAutomation\CBSAutomation\CBSAutomation\TestScripts\Smoke Test Scripts\PayableReceiptsTest.cs:line 84]]></stack-trace>
+              </failure>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

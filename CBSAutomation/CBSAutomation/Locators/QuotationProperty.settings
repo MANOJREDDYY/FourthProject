@@ -1,0 +1,60 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="CBSAutomation.Locators" GeneratedClassName="QuotationProperty">
+  <Profiles />
+  <Settings>
+    <Setting Name="CuatomerName_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">customer</Value>
+    </Setting>
+    <Setting Name="Salutation_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Salutation</Value>
+    </Setting>
+    <Setting Name="QuotationBusinessStatus_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">QuotationBusinessStatus</Value>
+    </Setting>
+    <Setting Name="QuotationApprovedStatus_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">QuotationApprovedStatus</Value>
+    </Setting>
+    <Setting Name="QuotationEffectiveStartDate_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">QuotationEffectiveStartDate</Value>
+    </Setting>
+    <Setting Name="findquotationestimateprices_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">find-quotation-estimate-prices</Value>
+    </Setting>
+    <Setting Name="filterBySpecId_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">filterBySpecId</Value>
+    </Setting>
+    <Setting Name="estimatessearchfilter_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">estimates-search-filter</Value>
+    </Setting>
+    <Setting Name="Tablelist_XPATH" Type="System.String" Scope="User">
+      <Value Profile="(Default)">//table[@id="estimate-search-grid"]/tbody/tr[2]/td[1]/input
+</Value>
+    </Setting>
+    <Setting Name="addquotationestimates_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">add-quotation-estimates</Value>
+    </Setting>
+    <Setting Name="MainTableList_XPATH" Type="System.String" Scope="User">
+      <Value Profile="(Default)">//table[@id="quotation-estimate-price-grid"]/tbody/tr[2]/td[3]
+</Value>
+    </Setting>
+    <Setting Name="Save_Link" Type="System.String" Scope="User">
+      <Value Profile="(Default)">div.control-group</Value>
+    </Setting>
+    <Setting Name="QuotationReport_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">print-button</Value>
+    </Setting>
+    <Setting Name="quotationMenuLInk_ID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">subMenuLiQuotations1</Value>
+    </Setting>
+    <Setting Name="Create_New_LINK" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Create New</Value>
+    </Setting>
+    <Setting Name="searchquotationdialog_CSS" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#search-quotation-dialog &gt; div.modal-footer &gt; #add-quotation-estimates
+</Value>
+    </Setting>
+    <Setting Name="CustomerSelectDropdown_XPATH" Type="System.String" Scope="User">
+      <Value Profile="(Default)">(//div[@class='ui-autocomplete-pagination-results'])[1]/ul/li[1]/a</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

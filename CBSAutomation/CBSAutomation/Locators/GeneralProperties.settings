@@ -1,0 +1,27 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="CBSAutomation.Locators" GeneratedClassName="GeneralProperties">
+  <Profiles />
+  <Settings>
+    <Setting Name="BASEURL1" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://crs1-bawcti04/CBSMaster</Value>
+    </Setting>
+    <Setting Name="BROWSER" Type="System.String" Scope="User">
+      <Value Profile="(Default)">chrome</Value>
+    </Setting>
+    <Setting Name="FILEPATH1" Type="System.String" Scope="User">
+      <Value Profile="(Default)">E:\GitCBS\cti-pbs\DEV\NET4\SeleniumAutomation\CBSAutomation\CBSAutomation\ExcelIO\CBSInputTestData.xls</Value>
+    </Setting>
+    <Setting Name="FILE" Type="System.String" Scope="User">
+      <Value Profile="(Default)">E:\ExcelTotest</Value>
+    </Setting>
+    <Setting Name="url" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://crs1-bawcti04/CBSnew</Value>
+    </Setting>
+    <Setting Name="BASEURL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://crs1-bawcti03/CBS</Value>
+    </Setting>
+    <Setting Name="FILEPATH" Type="System.String" Scope="User">
+      <Value Profile="(Default)">E:\GitCBS\cti-pbs\DEV\NET4\SeleniumAutomation\CBSAutomation\CBSAutomation\ExcelIO\CBSInputTestDataPostgress.xls</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
