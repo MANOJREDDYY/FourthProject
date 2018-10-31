@@ -7,7 +7,7 @@ $TestDLL="C:\GitCBSPostgress\cti-pbs\DEV\NET4\SeleniumAutomation\CBSAutomation\C
 
 $TestResult="C:\GitCBSPostgress\cti-pbs\DEV\NET4\SeleniumAutomation\CBSAutomation\CBSAutomation" +"\Reports\"
 Write-Host "starting Nunit Test"
-$Preqfullnamestr="CreateCustomer","CreateMaterial","ToolCreation","CreateSpecification","CreateDieCutSpecs","CreateQuotation","MultipleOrders","CreateMaterialPO","PurchaseBoardTest","RecevingPOTest","PayableReceiptsTest"
+$Preqfullnamestr="CreateCustomer"
 
 
 #$fullnamestr =$Preqfullnamestr | ForEach-Object{"CBSAutomation.TestScripts.$_,"}
