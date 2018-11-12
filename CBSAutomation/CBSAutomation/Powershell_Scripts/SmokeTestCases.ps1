@@ -11,13 +11,18 @@ $reportNunitDir="C:\Users\manojred\.jenkins\workspace\FourthProject\CBSAutomatio
 $reportNunitInputpath ="C:\Users\manojred\.jenkins\workspace\FourthProject\CBSAutomation\xmlTestResults"
 $reportNunitOutputpath ="C:\Users\manojred\.jenkins\workspace\FourthProject\CBSAutomation\HtmlTestResults"
 $NumArray = ("CreateMaterial","CreateCustomer")
+
+$i=1
 Foreach ($Item in $NumArray) {
+Write-Host "hello"
+Write-Host $i
+$i++
 &$NunitDir  $TestDLL --where class==CBSAutomation.TestScripts.Smoke_Test_Scripts.$Item --labels=off --work=$reportNunitInputpath --result="Project.SmokeCases.Test.xml;format=nunit3"
-&$reportNunitDir $reportNunitInputpath $reportNunitOutputpath 
+&$reportpat $reportNunitInputpath
 }
 
 
-&$reportNunitDir $reportNunitInputpath $reportNunitOutputpath 
+&$reportNunitDir $reportpat $reportNunitOutputpath 
 Write-Host "Test Completed"
 Write-Host "report Generation"
 
